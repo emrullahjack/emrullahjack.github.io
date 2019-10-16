@@ -2,6 +2,10 @@
   border-radius: 8px!important;
 }
 
+#imgProfile {
+  width: 90%;
+}
+
 .img-rounded-full {
   border-radius: 50%;
 }
@@ -82,4 +86,18 @@ html {
 
 .nav-link:hover {
   color: white!important;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .content-block {
+    margin-top: 6%;
+    margin-bottom: 6%;
+  }
+
+  .vertical-content-spacer {
+    padding-top: 6%;
+    padding-bottom: 6%;
+  }
+
 }
