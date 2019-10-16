@@ -1,5 +1,5 @@
 .rounded-sm {
-  border-radius: 12px;
+  border-radius: 8px!important;
 }
 
 .img-rounded-full {
@@ -14,6 +14,14 @@
 .content-block {
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+.margin-bottom-fixer {
+  margin-bottom: 0;
+}
+
+.margin-top-fixer {
+  margin-top: 0;
 }
 
 .background-gradient {
@@ -44,6 +52,34 @@
   color: rgb(154, 156, 159);
 }
 
+.text-centered {
+  text-align: center;
+}
+
 .header-bottom-bordered {
   border-bottom: 2px solid rgb(154, 156, 159);;
+}
+
+#navbarIntroductionSkillSetEducation {
+  background-image: url(mountain.jpg);
+}
+
+#workExperienceProjectsFooter {
+  background-image: url(landscape.jpg);
+}
+
+footer {
+  padding: 2%;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+  color: white!important;
 }
