@@ -65,11 +65,15 @@
 }
 
 #navbarIntroductionSkillSetEducation {
-  background-image: url(mountain.jpg);
+  background-image: url(rsc/mountain.jpg);
+  background-size: contain;
+  background-repeat: round;
 }
 
 #workExperienceProjectsFooter {
-  background-image: url(landscape.jpg);
+  background-image: url(rsc/landscape.jpg);
+  background-size: contain;
+  background-repeat: round;
 }
 
 footer {
@@ -78,10 +82,6 @@ footer {
 
 footer p {
   margin-bottom: 0;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .nav-link:hover {
