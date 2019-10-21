@@ -64,15 +64,21 @@
   border-bottom: 2px solid rgb(154, 156, 159);;
 }
 
-#navbarIntroductionSkillSetEducation {
+#navbarIntroductionSkillSet {
   background-image: url(rsc/mountain.jpg);
-  background-size: contain;
+  background-size: cover;
   background-repeat: round;
 }
 
-#workExperienceProjectsFooter {
+#educationWorkExperience {
   background-image: url(rsc/landscape.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: round;
+}
+
+#projectsFooter {
+  background-image: url(rsc/mountain.jpg);
+  background-size: cover;
   background-repeat: round;
 }
 
@@ -98,6 +104,18 @@ footer p {
   .vertical-content-spacer {
     padding-top: 6%;
     padding-bottom: 6%;
+  }
+
+  #navbarIntroductionSkillSet {
+    background-image: url(rsc/mountainMin.jpg);
+  }
+
+  #educationWorkExperience {
+    background-image: url(rsc/landscapeMin.jpg);
+  }
+
+  #projectsFooter {
+    background-image: url(rsc/mountainMin.jpg);
   }
 
 }
