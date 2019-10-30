@@ -65,19 +65,19 @@
 }
 
 #navbarIntroductionSkillSet {
-  background-image: url(rsc/mountain.jpg);
+  background-image: url(rsc/blueberry.jpg);
   background-size: cover;
   background-repeat: round;
 }
 
 #educationWorkExperience {
-  background-image: url(rsc/landscape.jpg);
+  background-image: url(rsc/tree.jpg);
   background-size: cover;
   background-repeat: round;
 }
 
 #projectsFooter {
-  background-image: url(rsc/mountain.jpg);
+  background-image: url(rsc/squirrel.jpg);
   background-size: cover;
   background-repeat: round;
 }
@@ -107,15 +107,15 @@ footer p {
   }
 
   #navbarIntroductionSkillSet {
-    background-image: url(rsc/mountainMin.jpg);
+    background-image: url(rsc/blueberryMin.jpg);
   }
 
   #educationWorkExperience {
-    background-image: url(rsc/landscapeMin.jpg);
+    background-image: url(rsc/treeMin.jpg);
   }
 
   #projectsFooter {
-    background-image: url(rsc/mountainMin.jpg);
+    background-image: url(rsc/squirrelMin.jpg);
   }
 
 }
