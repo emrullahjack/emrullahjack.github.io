@@ -10,6 +10,10 @@
   border-radius: 50%;
 }
 
+.img-rounded-slight {
+    border-radius: 20px;
+}
+
 .vertical-content-spacer {
   padding-top: 2.5%;
   padding-bottom: 2.5%;
@@ -64,6 +68,12 @@
   border-bottom: 2px solid rgb(154, 156, 159);;
 }
 
+.video0 {
+    width: 560px;
+    height: 315px;
+    border-radius: 4px;
+}
+
 #navbarIntroductionSkillSet {
   background-image: url(rsc/blueberry.jpg);
   background-size: cover;
@@ -104,6 +114,16 @@ footer p {
   .vertical-content-spacer {
     padding-top: 6%;
     padding-bottom: 6%;
+  }
+
+  .video0 {
+      width: 100%;
+      border-radius: 4px;
+  }
+
+  #imgProfile {
+    width: 90%;
+    margin-bottom: 5%;
   }
 
   #navbarIntroductionSkillSet {
