@@ -177,12 +177,28 @@
 
             <div class="jumbotron content-block rounded-sm margin-top-fixer background-color-selection shadowed" id="projects">
               <h3 class="text-gray header-bottom-bordered">Projects</h3>
-              <p class="font-Asap text-gray"> I am currently working on a robotics project and I am hoping to share the details soon! Below is a short footage of my robot's rotational motion capabilities, work in progress!!</p>
-              <iframe class="video0" src="https://www.youtube-nocookie.com/embed/FEy9U0VporU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <br>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="card bg-secondary mb-3">
+                      <img class="card-img-top" src="rsc/Gocheru.jpg" alt="A photo of Gocheru utility robot">
+                      <div class="card-body">
+                        <h5 class="card-title"><b>Gocheru</b></h5>
+                        <p class="card-text"><b>Gocheru is aimed to be a utility robot that helps you accomplish your daily tasks. It will be smart, small and swift. And most importantly, cost-efficient. Work in progress...</b></p>
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target=".bd-example-modal-lg">
+                          <b>Read more</b>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <footer class="content-block rounded-sm margin-bottom-fixer background-color-selection shadowed">
-              <p class="font-Asap text-gray text-centered">Designed and published by Emrullah Jack Öztosun with 💚 (updated on Jan. 2020)</p>
+              <p class="font-Asap text-gray text-centered">Designed and published by Emrullah Jack Öztosun with 💚 (updated on Feb. 2020)</p>
             </footer>
 
           </div>
@@ -200,3 +216,25 @@
     <script src="main.js"></script>
   </body>
 </html>
+
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content bg-secondary">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><b>Gocheru - Your Daily Companion</b></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p><b>The video below demonstrates some test cases for Gocheru's rotational motion capabilities. Please note that I am currently still working on this project. My current task is to develop a console app that maps sensor input to a 2D plane in real-time.</b></p>
+        <iframe class="video0" src="https://www.youtube-nocookie.com/embed/FEy9U0VporU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <p><b>Below video shows how you can use your phone to manually control Gocheru. Please note that manual control will be available when needed. Otherwise developing a successful AI is a priority.</b></p>
+        <iframe class="video0" src="https://www.youtube.com/embed/XphyPRibSGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
