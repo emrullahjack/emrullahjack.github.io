@@ -3,6 +3,10 @@ body {
   color: rgb(212, 213, 214);
 }
 
+.lan-pref {
+  cursor: pointer;
+}
+
 .rounded-sm {
   border-radius: 8px!important;
 }

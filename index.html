@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -47,6 +47,11 @@
                     <a class="nav-link " href="#ftContact">Contact</a>
                   </li>
                 </ul>
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <span class="lan-pref mr-2">🇬🇧</span><span class="lan-pref mr-2">🇹🇷</span>
+                  </li>
+                </ul>
               </div>
             </nav>
 
@@ -56,8 +61,8 @@
                   <img src="rsc/icon.svg" alt="Profile Photo" class="img-fluid mx-auto d-block img-rounded-slight svg-lg">
                 </div>
                 <div class="col-xs-12 col-sm-8">
-                  <h3 class="text-gray header-bottom-bordered">About KoyuLab</h3>
-                  <p class="text-gray">
+                  <h3 class="text-gray header-bottom-bordered" id="aboutUsHeader">About KoyuLab</h3>
+                  <p id="aboutUsPara" class="text-gray">
                     KoyuLab started as an idea in 2018 by Emrullah Jack Oztosun. This lab's main goals are to simplfy IoT and Robotics fields, encourage people with less skills and knowledge to build things of their own and connect them to the internet, and make further research in physical computing.
                     <br><br>
                     To pursue these goals, improve our skill set, and expand our knowledge base, we have been working relentlessly for the past 3 years. We made significant progress to achieve our goals with our projects and we dream making more!
@@ -77,7 +82,7 @@
           <div class="col-sm-12">
 
             <div class="jumbotron content-block rounded-sm margin-top-fixer background-color-selection shadowed" id="projects">
-              <h3 class="text-gray header-bottom-bordered">Projects</h3>
+              <h3 class="text-gray header-bottom-bordered" id="projectsHeader">Projects</h3>
               <br>
 
               <div class="row">
@@ -90,7 +95,7 @@
                 </div>
                 <div class="col-sm-12 col-md-8">
                   <h3 class="mt-2">nomat</h3>
-                  <p class="mt-2">
+                  <p id="projectsZeroPara" class="mt-2">
                     nomat is aimed to be a utility robot that helps you accomplish your daily tasks. It is smart, small and swift. It has open-source software, gently modified off-the-shelf electronics, and 3D printable mechanical parts. <br><br>
                     <b>Currently in development as of January 2021.</b>
                   </p>
@@ -103,7 +108,7 @@
                 </div>
                 <div class="col-sm-12 col-md-8">
                   <h3 class="mt-2">Göcheni</h3>
-                  <p class="mt-2">
+                  <p id="projectsOnePara" class="mt-2">
                     Göcheni is a minimalist platform for IoT and Robotics purposes. To learn more about it, feel free to <a class="text-success" href="https://www.gocheni.com">visit the platform</a>
                     <br>
                     <br>
@@ -123,47 +128,47 @@
           <div class="col-sm-12">
 
             <div class="jumbotron content-block rounded-sm margin-top-fixer background-color-selection shadowed" id="team">
-              <h3 class="text-gray header-bottom-bordered">Team</h3>
+              <h3 class="text-gray header-bottom-bordered" id="teamHeader">Team</h3>
               <br>
               <div class="row">
                 <div class="col-sm-12 col-md-4">
                   <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-4">
                       <img class="img-fluid img-rounded-full shadowed mb-3"  src="rsc/ej2.jpg" alt="Emrullah Jack Oztosun">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p class=" text-gray">
                         <b>Emrullah Jack Oztosun</b>
                         <br>
-                        Founder &amp; Lead Developer
+                        <span class="teaMemBrief">Founder &amp; Lead Developer</span>
                       </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                   <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-4">
                       <img class="img-fluid img-rounded-full shadowed mb-3"  src="rsc/enesTur.jpg" alt="Enes Turan Profile Picture">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p class=" text-gray">
                         <b>Enes Ahmed Turan</b>
                         <br>
-                        Mobile Developer &amp; Tester
+                        <span class="teaMemBrief">Mobile Developer &amp; Tester</span>
                       </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-4">
                   <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-4">
                       <img class="img-fluid img-rounded-full shadowed mb-3"  src="rsc/jingLi.jpg" alt="Jing Li Profile Picture">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p class=" text-gray">
                         <b>Jing Li</b>
                         <br>
-                        Computer Vision Developer
+                        <span class="teaMemBrief">Computer Vision Developer</span>
                       </p>
                     </div>
                   </div>
@@ -172,14 +177,34 @@
               <div class="row">
                 <div class="col-sm-12 col-md-4">
                   <div class="row">
-                    <div class="col-sm-4">
+                    <div class="col-4">
                       <img class="img-fluid img-rounded-full shadowed mb-3"  src="rsc/furkanYaman.jpg" alt="Furkan Yaman Profile Picture">
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-8">
                       <p class=" text-gray">
                         <b>Furkan Yaman</b>
                         <br>
-                        Social Relations Support &amp; Translator
+                        <span class="teaMemBrief">Social Relations Support &amp; Translator</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <br>
+              <h3 class="text-gray header-bottom-bordered" id="teamContributorsHeader">Contributors</h3>
+              <br>
+              <div class="row">
+                <div class="col-sm-12 col-md-4">
+                  <div class="row">
+                    <div class="col-4">
+                      <img class="img-fluid img-rounded-full shadowed mb-3"  src="rsc/AFYildirim.jpeg" alt="Ahmet Faruk Yildirim Profile Picture">
+                    </div>
+                    <div class="col-8">
+                      <p class=" text-gray">
+                        <b>Ahmet Faruk Yıldırım</b>
+                        <br>
+                        <span class="contriBrief">Technical Advisor (Software Engineer at Ericsson)</span>
                       </p>
                     </div>
                   </div>
@@ -188,7 +213,7 @@
             </div>
 
             <footer class="content-block rounded-sm margin-bottom-fixer background-color-selection shadowed" id="ftContact">
-              <p class=" text-gray text-centered">
+              <p id="ftContactPara" class=" text-gray text-centered">
                 For all inquiries, recommendations, feedback or anything else, email to <a class="text-success" href="mailto:emrullahjack@gmail.com">emrullahjack@gmail.com</a>
                 <br>
                 Designed by KoyuLab team with 💚 (updated on Jan. 2021)
@@ -210,25 +235,3 @@
     <script src="main.js"></script>
   </body>
 </html>
-
-<!-- Modal -->
-<div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content bg-secondary">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel"><b>Gocheru - Your Daily Companion</b></h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p><b>The video below demonstrates some test cases for Gocheru's rotational motion capabilities. Please note that I am currently still working on this project. My current task is to develop a console app that maps sensor input to a 2D plane in real-time.</b></p>
-        <iframe class="video0" src="https://www.youtube-nocookie.com/embed/FEy9U0VporU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <br>
-        <br>
-        <p><b>Below video shows how you can use your phone to manually control Gocheru. Please note that manual control will be available when needed. Otherwise developing a successful AI is a priority.</b></p>
-        <iframe class="video0" src="https://www.youtube.com/embed/XphyPRibSGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </div>
-  </div>
-</div>
