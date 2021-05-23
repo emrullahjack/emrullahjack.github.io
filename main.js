@@ -54,10 +54,10 @@ $(document).ready(function(){
     projectsZeroPara: "nomat günlük işlerinizde size yardım eden yararlı bir robot olması amaçlanmaktadır. Akıllı, küçük ve hızlıdır. Açık-kod kaynağına sahip, nazikçe modifiye edilmiş standart elektronik devrelerden meydana gelmektedir. 3D yazıcı ile üretilebilir mekanik parçalara sahiptir. <br><br><b>2021 ocak itibariyle geliştirilmeye devam edilmektedir.</b>",
     projectsOnePara: "Göcheni IoT ve Robotik bilim alanlarına amade, minimalist bir platformdur. Hakkında daha fazla bilgi sahibi olmak için platformu <a class=\"text-success\" href=\"https://www.gocheni.com\">ziyaret etmeyi unutmayın.<a> <br><br><b>2021 ocak itibariyle geliştirilmeye devam edilmektedir.</b>",
     teamHeader: "Takım",
-    teaMemBriefArr: ["Kurucu ve lider geliştirici", "Mobil geliştirici ve denetçi", "Bilgisayarlı görüntüleme geliştiricisi", "Sosyal İlişkiler Sorumlusu ve Çevirmen"],
-    ftContactPara: "Danışma, geri bildirim ve tavsiyeleriniz için <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a> adresine mail atmaktan çekinmeyin. <br>KoyuLab Takımı tarafından 💚 ile geliştirildi (updated on Jan. 2021)",
+    teaMemBriefArr: ["Kurucu ve lider geliştirici", "Mobil geliştirici ve denetçi", "Bilgisayarlı görüntüleme geliştiricisi", "Sosyal İlişkiler Sorumlusu ve Çevirmen", "Elektrik/Elektronik Mühendisi"],
+    ftContactPara: "Danışma, geri bildirim ve tavsiyeleriniz için <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a> adresine mail atmaktan çekinmeyin. <br>KoyuLab Takımı tarafından 💚 ile geliştirildi (Mayıs 2021'de güncellendi)",
     teamContributorsHeader: "Destek Verenler",
-    contriBriefArr: ["Teknik danışman (Ericsson'da yazılım mühendisi)"]
+    contriBriefArr: ["Teknik danışman (Ericsson'da yazılım mühendisi)", "Deneysel veri toplayıcısı (Psikoloji Yuk. Lis. adayı &amp; Çiftlik Sahibi)"]
   }
 
   let enContent = {
@@ -68,10 +68,10 @@ $(document).ready(function(){
     projectsZeroPara: "nomat is aimed to be a utility robot that helps you accomplish your daily tasks. It is smart, small and swift. It has open-source software, gently modified off-the-shelf electronics, and 3D printable mechanical parts. <br><br><b>Currently in development as of January 2021.</b>",
     projectsOnePara: "Göcheni is a minimalist platform for IoT and Robotics purposes. To learn more about it, feel free to <a class=\"text-success\" href=\"https://www.gocheni.com\">visit the platform</a> <br><br><b>Currently in development as of January 2021.</b>",
     teamHeader: "Team",
-    teaMemBriefArr: ["Founder &amp; Lead Developer", "Mobile Developer &amp; Tester", "Computer Vision Developer", "Social Relations Support &amp; Translator"],
-    ftContactPara: "For all inquiries, recommendations, feedback or anything else, email to <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a><br>Designed by KoyuLab team with 💚 (updated on Jan. 2021)",
+    teaMemBriefArr: ["Founder &amp; Lead Developer", "Mobile Developer &amp; Tester", "Computer Vision Developer", "Social Relations Support &amp; Translator", "Electrical/Electronics Engineer"],
+    ftContactPara: "For all inquiries, recommendations, feedback or anything else, email to <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a><br>Designed by KoyuLab team with 💚 (updated on May 2021)",
     teamContributorsHeader: "Contributors",
-    contriBriefArr: ["Technical Advisor (Software Engineer at Ericsson)"]
+    contriBriefArr: ["Technical Advisor (Software Engineer at Ericsson)", "Empirical Data Collector (Psychology Msc. Cand. &amp; Farmland owner)"]
   }
 
   function translateContent(lanContentObj) {
