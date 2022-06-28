@@ -49,29 +49,29 @@ $(document).ready(function(){
   let trContent = {
     navLinkText: ["Hakkımızda", "Projelerimiz", "Takım", "İletişim"],
     aboutUsHeader: "KoyuLab Hakkında",
-    aboutUsPara: "KoyuLab 2018 yılında Emrullah Öztosun tarafından bir fikir olarak başladı. Bu laboratuarın ana amacı; IoT ve Robotik bilimler alanını basitleştirerek saha ile ilgili daha az kabiliyete sahip ve kendi projelerini internete aktarma konusunda sıkıntı yaşayan arkadaşlara destek olmak, ve fiziksel hesaplama alanında araştırma ve geliştirme çalışmaları yürütmektir. <br><br>İdeallerimizi gerçekleştirmek, yeteneklerimizi geliştirmek ve bilgi haznemizi genişletmek için üç senedir amansızca çalışmaktayız. Hayallerimizi gerçekleştirme konusunda önemli ilerlemeler kaydettik ve daha da fazlasını yapmayı hayal ediyoruz!",
+    aboutUsPara: "KoyuLab 2018 yılında Emrullah Öztosun tarafından bir fikir olarak başladı. Bu laboratuarın ana amacı; IoT ve Robotik bilimler alanını basitleştirerek saha ile ilgili daha az kabiliyete sahip ve kendi projelerini internete aktarma konusunda sıkıntı yaşayan arkadaşlara destek olmak, ve fiziksel hesaplama alanında araştırma ve geliştirme çalışmaları yürütmektir. <br><br>İdeallerimizi gerçekleştirmek, yeteneklerimizi geliştirmek ve bilgi haznemizi genişletmek için dört senedir amansızca çalışmaktayız. Hayallerimizi gerçekleştirme konusunda önemli ilerlemeler kaydettik ve daha da fazlasını yapmayı hayal ediyoruz!",
     projectsHeader: "Projelerimiz",
-    projectsZeroPara: "nomat günlük işlerinizde size yardım eden yararlı bir robot olması amaçlanmaktadır. Akıllı, küçük ve hızlıdır. Açık-kod kaynağına sahip, nazikçe modifiye edilmiş standart elektronik devrelerden meydana gelmektedir. 3D yazıcı ile üretilebilir mekanik parçalara sahiptir. <br><br><b>2021 Agustos itibariyle geliştirilmeye devam edilmektedir.</b>",
-    projectsOnePara: "Göcheni IoT ve Robotik bilim alanlarına amade, minimalist bir platformdur. <br><br><b>2021 Ağustos ayı itibariyle geliştirilmeye devam edilmektedir.</b>",
+    projectsZeroPara: "nomat genel amaçlı, insansız bir kara aracıdır (IKA). Akıllı, küçük ve hızlıdır. Özenle tasarlanmış ve uygulamaya dökülmüş kod tabanına sahip, nazikçe modifiye edilmiş standart elektronik devrelerden meydana gelmektedir. 3D yazıcı ile üretilebilir mekanik parçalara sahiptir. <br><br><b>2022 Haziran ayı itibariyle geliştirilmeye devam edilmektedir.</b>",
+    projectsOnePara: "KoyuBulut IoT ve Robotik bilim alanlarına amade, minimalist bir platformdur. <br><br><b>2022 Haziran ayı itibariyle geliştirilmeye devam edilmektedir.</b>",
     teamHeader: "Takım",
-    teaMemBriefArr: ["Kurucu ve lider geliştirici", "Mobil geliştirici ve denetçi", "Bilgisayarlı görüntüleme geliştiricisi", "Sosyal İlişkiler Sorumlusu ve Çevirmen", "Elektrik/Elektronik Mühendisi"],
-    ftContactPara: "Danışma, geri bildirim ve tavsiyeleriniz için <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a> adresine mail atmaktan çekinmeyin. <br>KoyuLab Takımı tarafından 💚 ile geliştirildi (Ağustos 2021'de güncellendi)",
+    teaMemBriefArr: ["Kurucu ve lider geliştirici", "Uzaktan denetçi", "Bilgisayarlı görüntüleme geliştiricisi", "Çevirmen (Türkçe / Ingilizce)", "Elektrik/Elektronik Mühendisi"],
+    ftContactPara: "Danışma, geri bildirim ve tavsiyeleriniz için <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a> adresine mail atmaktan çekinmeyin. <br>KoyuLab Takımı tarafından 💚 ile geliştirildi (Haziran 2022'de güncellendi)",
     teamContributorsHeader: "Destek Verenler",
-    contriBriefArr: ["Teknik danışman (Ericsson'da yazılım mühendisi)", "Deneysel veri toplayıcısı (Psikoloji Yuk. Lis. adayı &amp; Çiftlik Sahibi)"]
+    contriBriefArr: ["Teknik danışman", "Deneysel veri toplayıcısı"]
   }
 
   let enContent = {
     navLinkText: ["About Us", "Projects", "Team", "Contact"],
     aboutUsHeader: "About KoyuLab",
-    aboutUsPara: "KoyuLab started as an idea in 2018 by Emrullah Jack Oztosun. This lab's main goals are to simplfy IoT and Robotics fields, encourage people with less skills and knowledge to build things of their own and connect them to the internet, and make further research in physical computing. <br><br>To pursue these goals, improve our skill set, and expand our knowledge base, we have been working relentlessly for the past 3 years. We made significant progress to achieve our goals with our projects and we dream making more!",
+    aboutUsPara: "KoyuLab started as an idea in 2018 by Emrullah Jack Öztosun. This lab's main goals are to simplfy IoT and Robotics fields, encourage people with less skills and knowledge to build things of their own and connect them to the internet, and make further research in physical computing. <br><br>To pursue these goals, improve our skill set, and expand our knowledge base, we have been working relentlessly for the past 4 years. We made significant progress to achieve our goals with our projects and we dream making more!",
     projectsHeader: "Projects",
-    projectsZeroPara: "nomat is aimed to be a utility robot that helps you accomplish your daily tasks. It is smart, small and swift. It has open-source software, gently modified off-the-shelf electronics, and 3D printable mechanical parts. <br><br><b>Currently in development as of August 2021.</b>",
-    projectsOnePara: "Göcheni is a minimalist platform for IoT and Robotics purposes. <br><br><b>Currently in development as of August 2021.</b>",
+    projectsZeroPara: "nomat is a general purpose unmanned land vehicle (ULV). It is smart, small and swift. It has an elaborately designed and rigorously implemented software, gently modified off-the-shelf electronics, and 3D printable mechanical parts. <br><br><b>Currently in development as of June 2022.</b>",
+    projectsOnePara: "KoyuBulut is a minimalist platform for IoT and Robotics purposes. <br><br><b>Currently in development as of June 2022.</b>",
     teamHeader: "Team",
-    teaMemBriefArr: ["Founder &amp; Lead Developer", "Mobile Developer &amp; Tester", "Computer Vision Developer", "Social Relations Support &amp; Translator", "Electrical/Electronics Engineer"],
-    ftContactPara: "For all inquiries, recommendations, feedback or anything else, email to <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a><br>Designed by KoyuLab team with 💚 (updated on August 2021)",
+    teaMemBriefArr: ["Founder &amp; Lead Developer", "Remote Tester", "Computer Vision Developer", "Translator (Turkish/English)", "Electrical/Electronics Engineer"],
+    ftContactPara: "For all inquiries, recommendations, feedback or anything else, email to <a class=\"text-success\" href=\"mailto:emrullahjack@gmail.com\">emrullahjack@gmail.com</a><br>Designed by KoyuLab team with 💚 (updated on June 2022)",
     teamContributorsHeader: "Contributors",
-    contriBriefArr: ["Technical Advisor (Software Engineer at Ericsson)", "Empirical Data Collector (Psychology Msc. Cand. &amp; Farmland owner)"]
+    contriBriefArr: ["Technical Advisor", "Empirical Data Collector"]
   }
 
   function translateContent(lanContentObj) {
