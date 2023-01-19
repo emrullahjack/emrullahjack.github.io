@@ -54,7 +54,7 @@ $(document).ready(function(){
     projectsZeroPara: "nomat genel amaçlı, insansız bir kara aracıdır (IKA). Akıllı, küçük ve hızlıdır. Özenle tasarlanmış ve uygulamaya dökülmüş kod tabanına sahip, nazikçe modifiye edilmiş standart elektronik devrelerden meydana gelmektedir. 3D yazıcı ile üretilebilir mekanik parçalara sahiptir. <b>2022 Haziran ayı itibariyle geliştirilmeye devam edilmektedir.</b><br><a class=\"text-success\" href=\"./nomat-pt3.html\">nomat pt-3 geliştirme girdileri</a>",
     projectsOnePara: "KoyuBulut IoT ve Robotik bilim alanlarına amade, minimalist bir platformdur. <br><br><b>2022 Haziran ayı itibariyle geliştirilmeye devam edilmektedir.</b>",
     teamHeader: "Takım",
-    teaMemBriefArr: ["Kurucu ve lider geliştirici", "Uzaktan denetçi", "Bilgisayarlı görüntüleme geliştiricisi", "Çevirmen (Türkçe / Ingilizce)", "Elektrik/Elektronik Mühendisi"],
+    teaMemBriefArr: ["Kurucu ve lider geliştirici<br><a class=\"text-success\" href=\"https://bionluk.com/emrullahoztosun\">Freelancer @ Bionluk</a>", "Uzaktan denetçi", "Bilgisayarlı görüntüleme geliştiricisi", "Çevirmen (Türkçe / Ingilizce)", "Elektrik/Elektronik Mühendisi"],
     ftContactPara: "Danışma, geri bildirim ve tavsiyeleriniz için <a class=\"text-success\" href=\"mailto:koyulab@yaani.com\">koyulab@yaani.com</a> adresine mail atmaktan çekinmeyin. <br>KoyuLab Takımı tarafından 💚 ile geliştirildi (Haziran 2022'de güncellendi)",
     teamContributorsHeader: "Destek Verenler",
     contriBriefArr: ["Teknik danışman", "Deneysel veri toplayıcısı"]
@@ -68,7 +68,7 @@ $(document).ready(function(){
     projectsZeroPara: "nomat is a general purpose unmanned land vehicle (ULV). It is smart, small and swift. It has an elaborately designed and rigorously implemented software, gently modified off-the-shelf electronics, and 3D printable mechanical parts. <b>Currently in development as of June 2022.</b><br><a class=\"text-success\" href=\"./nomat-pt3.html\">nomat pt-3 geliştirme girdileri</a>",
     projectsOnePara: "KoyuBulut is a minimalist platform for IoT and Robotics purposes. <br><br><b>Currently in development as of June 2022.</b>",
     teamHeader: "Team",
-    teaMemBriefArr: ["Founder &amp; Lead Developer", "Remote Tester", "Computer Vision Developer", "Translator (Turkish/English)", "Electrical/Electronics Engineer"],
+    teaMemBriefArr: ["Founder &amp; Lead Developer<br><a class=\"text-success\" href=\"https://bionluk.com/emrullahoztosun\">Freelancer @ Bionluk</a>", "Remote Tester", "Computer Vision Developer", "Translator (Turkish/English)", "Electrical/Electronics Engineer"],
     ftContactPara: "For all inquiries, recommendations, feedback or anything else, email to <a class=\"text-success\" href=\"mailto:koyulab@yaani.com\">koyulab@yaani.com</a><br>Designed by KoyuLab team with 💚 (updated on June 2022)",
     teamContributorsHeader: "Contributors",
     contriBriefArr: ["Technical Advisor", "Empirical Data Collector"]
