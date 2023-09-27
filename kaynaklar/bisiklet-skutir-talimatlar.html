@@ -13,7 +13,7 @@
 
     <link rel="stylesheet" href="../main.css">
     <link rel="icon" href="../rsc/logo-arkaplansiz.png">
-    <title>KoyuLab > nomat-pt3</title>
+    <title>KoyuLab > Bisiklet / Skutır Dönüş Sinyali</title>
   </head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKDRBTG91N"></script>
@@ -43,42 +43,53 @@
                       <img src="../rsc/icon.svg" width="30" height="22" alt="KoyuLab Icon">
                     </a>
                   </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="cppNavbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      C++
-                    </a>
-                    <div class="dropdown-menu bg-dark" aria-labelledby="cppNavbarDropdownMenuLink">
-                      <a class="dropdown-item bg-dark text-light" href="cpp-giris">C++ Giriş</a>
-                      <a class="dropdown-item bg-dark text-light" href="#">C++ Sözdizimi</a>
-                      <a class="dropdown-item bg-dark text-light" href="#">C++ Çıktı</a>
-                      <a class="dropdown-item bg-dark text-light" href="#">C++ Yorum</a>
-                      <a class="dropdown-item bg-dark text-light" href="#">C++ Değişkenler</a>
-                      <a class="dropdown-item bg-dark text-light" href="#">C++ Kullanıcı Girdisi</a>
-                      <a class="dropdown-item bg-dark text-light" href="#">C++ Veri Türleri</a>
-                    </div>
-                  </li>
               </div>
             </nav>
 
             <div class="jumbotron content-block rounded-sm background-color-selection shadowed" id="aboutUs">
               <div class="row"> <!-- where you've left -->
-                <div class="col-xs-12 col-sm-12">
-                  <h3 class="text-gray header-bottom-bordered" id="aboutUsHeader">C++ Giriş</h3>
+                <div class="col-xs-12 col-sm-12 col-md-7">
+                  <h3 class="mt-2">Bisiklet / Skutır Dönüş Sinyali</h3>  
+                  <hr>
+                  <h4>Gerekli Malzemeler</h4>         
                   <p class="text-gray">
-                    C++ kullanmaya başlamanız için iki şeye gereksinim duyarsınız:
+                    Donanım gereksinimleri özetle aşağıda listelenmiştir.
                   </p>
                   <ul>
-                    <li>Metin düzeltici (ör. Windows işletim sistemindeki not defteri uygulaması, ya da <a class="text-success" href="https://atom.io">atom</a>)</li>
-                    <li>Derleyici (ör. GCC, yazdığınız C++ kodunu bilgisayarın anlayabileceği bir hale getirmek için)</li>
+                    <li>1x Herhangi bir Deneyap Kart</li>
+                    <li>2x Deneyap LED Matris (M34)</li>
+                    <li>Powerbank ya da Aspilsan Lityum İon Pil, voltaj düzenleyici, 1S BMS modülü</li>
                   </ul>
                   <p class="text-gray">
-                    Seçeceğiniz metin düzelticinin size programınızı yazma esnasında kolaylık sağlayan araçlar sunması dışında herhangi bir fonksiyonu yoktur, bu yüzden
-                    dilediğiniz birini seçebilirsiniz. <br>
-                    Giriş seviyesi C++ programlama için piyasadaki derleyiciler arasında belirgin bir fark bulunmamaktadır. KoyuLab GCC kullanmaktadır, indirme ve yükleme
-                    talimatlarına <a class="text-success" href="">buradan</a> ulaşabilirsiniz.
+                    <b>Not:</b> Bileşenleri birleştirmede gereken araçlar listelenmemiştir (ör. lehim aleti).
                   </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-5">
+                  <img class="img-fluid rounded" src="../rsc/bisikletSkutirSinyal-0.jpg" alt="Gereken Malzemeler">
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-8">
+                  <h4>Talimatlar</h4>
+                  <p class="text-gray">
+                    Kurulum talimatları özetle aşağıda listelenmiştir. <i>Giriş seviyesi elektronik, orta-ileri seviyede yazılım bilgisine sahip olduğunuz varsayılmaktadır.</i>
+                  </p>
+                  <ol>
+                    <li>LED Matris modüllerinden birinin üzerindeki adres padlerini lehimleyin.</li>
+                    <li>LED Matris modülleri ve Deneyap Kartınızı modüller ile beraber gelen I2C kablolarıyla birbirine zincirleme bağlayın.</li>
+                    <li><a href="https://koyubulut.com.tr/araclar/kullanici_envanteri/" class="text-success">KoyuBulut kullanıcı envanterinizdeki</a> kullanma kılavuzu içerisindeki örnek kodu buradaki talimatları takip ederek kartınıza yükleyin.</li>
+                    <li>Bilgisayarınızdan Deneyap Kart'ınızın oluşturduğu wifi ağına (erişim noktası) bağlanın. Bu wifi ağının adı ve şifresi yüklediğiniz kodun içerisinde mevcuttur.</li>
+                    <li>Bir tarayıcı ekranı açılıp size kartı hangi wifi ağına bağlamak istediğinizi sormazsa kendiniz bir tarayıcı açıp 192.168.4.1 adresine ilerleyin ve burada kartın esas bağlanmasını istediğiniz wifi ağını seçin (ör. telefonunuzun kişisel erişim noktası)</li>
+                    <li>Kartın üzerindeki yeniden başlat butonuyla kartı yeniden başlatın.</li>
+                  </ol>
+                  <p>
+                    Tebrikler 👍 kartınız internete bağlı olduğu müddetçe <a href="https://koyubulut.com.tr/araclar/kullanici_envanteri/" class="text-success">KoyuBulut kullanıcı envanterinizdeki</a> butonlar ile dönüş sinyali verebilirsiniz.
+                  </p>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4">
+                  <img class="img-fluid rounded" src="../rsc/bisikletSkutirSinyal-2.jpg" alt="1. Asama">
+                </div>
+                <div class="col-xs-12 col-sm-12">
                   <p class="text-gray text-right mb-0">
-                    (eklendi: 02.07.2022 | güncellendi: yok)
+                    (eklendi: 26.09.2023 | güncellendi: yok)
                   </p>
                 </div>
               </div>
@@ -88,7 +99,7 @@
               <p id="ftContactPara" class=" text-gray text-centered">
                 Danışma, geri bildirim ve tavsiyeleriniz için <a class="text-success" href="mailto:koyulab@yaani.com">koyulab@yaani.com</a> adresine mail atmaktan çekinmeyin. 
                 <br>
-                KoyuLab Takımı tarafından 💚 ile geliştirildi (Temmuz 2022'de güncellendi)
+                KoyuLab Takımı tarafından 💚 ile geliştirildi (Eylül 2023'de güncellendi)
               </p>
             </footer>
 
