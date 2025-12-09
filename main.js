@@ -104,4 +104,6 @@ $(document).ready(function(){
   lanPrefArr[1].addEventListener("click", function () {
     translateContent(trContent);
   });
+
+  $("#welcomeModal").modal("show");
 });
